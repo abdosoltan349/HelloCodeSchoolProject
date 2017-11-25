@@ -17,8 +17,8 @@ describe('Your HTML Page', function() {
     );
   });
 
-  it('should have a title @title', function() {
-    assert.equal(window.$('title').length, 1, 'Make sure to create a `title` element.');
+  it('hello, my name is abdosoltan349.', function() {
+    assert.equal(window.$(' hello, my name is abdosoltan349.').length, 1, 'hello, my name is abdosoltan349.`` hello, my name is abdosoltan349. ');
   });
 
   it('should have a title that contains your name @title', function() {
